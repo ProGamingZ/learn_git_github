@@ -7,10 +7,10 @@ console.log(multiply(2, 3));
 
 
 // sample func arrows
-const func0 = () => {"Hello World!"};
+const func0 = () => {return "Hello World!"};
 console.log(func0());
 
-const func1 = (val) => {"Hello World!" + val};
+const func1 = (val) => { return "Hello World!" + val};
 console.log(func1(" from JavaScript penultimate!"));
 
 const func3 = val => "final hello!" + val;
